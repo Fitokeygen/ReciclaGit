@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".AddSolicitud">
+
+    <include
+        layout="@layout/appbar"/>
+
+    <EditText
+        android:id="@+id/nombreRecTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="@string/nombre_del_reciclador"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <EditText
+        android:id="@+id/lotesRectTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:hint="@string/n_de_lotes"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <EditText
+        android:id="@+id/direccionRecTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:hint="@string/direccion"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+
+    <Button
+        android:id="@+id/solicitarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="327dp"
+        android:background="@color/colorPrimary"
+        android:onClick="eventoBoton"
+        android:text="@string/solicitar"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+</RelativeLayout>

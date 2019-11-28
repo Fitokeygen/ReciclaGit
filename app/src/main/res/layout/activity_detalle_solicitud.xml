@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondos"
+    tools:context=".detalleSolicitud">
+    <include
+        layout="@layout/appbar"/>
+
+    <EditText
+        android:id="@+id/nombreDetalleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lotesDetalleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/direccionDetalleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/nombreLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="110dp"
+        android:text="@string/nombre_del_reciclador" />
+
+    <TextView
+        android:id="@+id/LoteLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/cantidad_de_lotes" />
+
+    <TextView
+        android:id="@+id/direcLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/direccion" />
+
+    <Button
+        android:id="@+id/retiradoBtn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="125dp"
+        android:layout_marginTop="320dp"
+        android:text="@string/retirado"
+        android:textColor="@color/fondos"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/eliminarBtn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="125dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/modificar" />
+
+    <Button
+        android:id="@+id/modificarBtn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="125dp"
+        android:layout_marginTop="480dp"
+        android:text="@string/eliminar"
+        android:background="@color/eliminar"
+        android:textColor="@color/fondos"
+        />
+</RelativeLayout>

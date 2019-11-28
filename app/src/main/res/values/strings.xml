@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Recicla-G</string>
+    <string name="bienvenidol">Recicla-G</string>
+    <string name="yo_conduzco">YO CONDUZCO</string>
+    <string name="yo_reciclo">YO RECICLO</string>
+    <string name="registro_conductor">Registro Conductor</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="no_tengo_una_cuenta_creada">No tengo una Cuenta creada.</string>
+    <string name="contrase_a">Contraseña...</string>
+    <string name="correo_electronico">Correo electronico...</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="login_reciclador">Login Reciclador</string>
+    <string name="title_activity_conductor_map">Map</string>
+    <string name="reciclar">Reciclar</string>
+    <string name="n_de_lotes">n° de Lotes</string>
+    <string name="nombre_del_reciclador">Nombre del reciclador</string>
+    <string name="direccion">Direccion</string>
+    <string name="solicitar">Solicitar</string>
+    <string name="detalle_de_solicitud">Detalle de solicitud</string>
+    <string name="cantidad_de_lotes">Cantidad de lotes</string>
+    <string name="retirado">Retirado</string>
+    <string name="pedidos_de_reciclaje">Pedidos de Reciclaje</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="confirmar_contrase_a">Confirmar contraseña</string>
+</resources>

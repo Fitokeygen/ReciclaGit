@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "35999761702",
+    "firebase_url": "https://papper-c29b3.firebaseio.com",
+    "project_id": "papper-c29b3",
+    "storage_bucket": "papper-c29b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35999761702:android:b80dc26663190067bbede7",
+        "android_client_info": {
+          "package_name": "cl.inacap.reciclag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35999761702-p65nik3q550d1qvl75tt28kgp8glhj8t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.inacap.reciclag",
+            "certificate_hash": "c453896776cf98e65422112663897d580cbe5f80"
+          }
+        },
+        {
+          "client_id": "35999761702-vqfrhj916se24pnq7kk26vb5075inkqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPWXV79qZcWqIsAv4OuA33CihX1VPQ1yI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35999761702-vqfrhj916se24pnq7kk26vb5075inkqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

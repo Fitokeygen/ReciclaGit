@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarseCond">
+
+
+    <include
+        layout="@layout/appbar"/>
+
+    <EditText
+        android:id="@+id/correoRecTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:ems="12"
+        android:hint="@string/correo_electronico"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <EditText
+        android:id="@+id/contraseñaRecTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="175dp"
+        android:ems="12"
+        android:hint="@string/contrase_a"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+
+    <EditText
+        android:id="@+id/con_contraseñaRecTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="243dp"
+        android:ems="10"
+        android:hint="@string/confirmar_contrase_a"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+
+    <Button
+        android:id="@+id/button_registrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="337dp"
+        android:layout_toEndOf="@+id/ingresarRecBtn"
+        android:text="@string/registrarse" />
+
+
+
+</RelativeLayout>
